@@ -51,8 +51,8 @@ def download(url, pic_path_name):
 
 if __name__ == "__main__":
     excel_path = input("请输入excel的绝对或相对路径:")
-    # df = pd.read_excel(excel_path)
-    df = pd.read_excel("./286388460_按文本_发表收集1019_46_46.xlsx")
+    df = pd.read_excel(excel_path)
+    #  df = pd.read_excel("./286388460_按文本_发表收集1019_46_46.xlsx")
     #  print(df["1、您的姓名："])
     #  print(df["2、订单类型："])
     #  print(df["3、购买日期"])
